@@ -1,0 +1,102 @@
+/*****Base styles*****/
+body {
+  font-family: 'Old Standard TT', sans-serif;
+  font-size: 24pt;
+  background-color: #D5BBB1;
+}
+
+#header{
+  height: 800px;
+}
+
+#work{
+  height: 1100px;
+}
+
+#about{
+  height: 650px;
+}
+
+#contact{
+  height: 400px;
+}
+
+
+/*****Grid*****/
+.full-width {
+    width: 1200px;
+    margin: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/*****Header*****/
+header{
+  height: 800px;
+  background-image: url('../img/header-image.jpg');
+  background-size: cover;
+}
+
+header h1{
+  font-family: Cabin;
+  font-size: 50pt; color: #D5BBB1;
+  text-align: center;
+}
+
+header h2{
+  font-size: 40pt; color: #9CC4B2;
+  text-align: center;
+}
+
+/*****Work*****/
+#work h3{
+  font-family: Cabin; color: #393D3F;
+  font-size: 35pt;
+  text-align: center;
+}
+
+#work h4{
+  font-family: Cabin; color: #393D3F;
+  font-size: 25pt;
+}
+
+#work p{
+  font-size: 20pt; color: #393D3F;
+}
+
+/*****About*****/
+#about h3{
+  font-size: 35pt; color: #393D3F;
+  text-align: center;
+  font-family: Cabin;
+}
+
+#about h4{
+  font-family: Cabin; color: #393D3F;
+  font-size: 25pt;
+}
+
+#about p{
+  font-size: 20pt; color: #393D3F;
+}
+
+/*****Contact*****/
+#contact h3{
+  font-size: 35pt; color: #393D3F;
+  font-family: Cabin;
+  text-align: center;
+}
+
+#contact{
+   background-color: #9CC4B2;
+}
+
+#contact .third-width{
+  text-align: center;
+}
